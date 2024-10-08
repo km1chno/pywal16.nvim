@@ -247,8 +247,9 @@ M.highlights_base = function(colors)
 		NeoTreeSymlink = { fg = colors.color7 },
 		NeoTreeFolderIcon = { fg = colors.color2, bg = colors.transparent },
 		NeoTreeStatusLineNC = { bg = colors.transparent, fg = colors.transparent },
-		NeoTreeVertSplit = { fg = colors.foreground, bg = colors.transparent },
-		NeoTreeWinSeparator = { fg = colors.foreground, bg = colors.transparent },
+		NeoTreeStatsHeader = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeVertSplit = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeWinSeparator = { fg = colors.transparent, bg = colors.transparent },
 
 		-- LspSaga
 		LspFloatWinNormal = { bg = colors.transparent },

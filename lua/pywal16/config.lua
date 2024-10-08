@@ -253,6 +253,10 @@ M.highlights_base = function(colors)
 		NeoTreeWinSeparator = { fg = colors.transparent, bg = colors.transparent },
 		NeoTreeFloatBorder = { fg = colors.transparent, bg = colors.transparent },
 		NeoTreeFloatTitle = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeTabInactive = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeTabActive = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeTabSeparatorInactive = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeTabSeparatorActive = { fg = colors.transparent, bg = colors.transparent },
 
 		-- LspSaga
 		LspFloatWinNormal = { bg = colors.transparent },

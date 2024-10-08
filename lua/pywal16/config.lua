@@ -236,9 +236,10 @@ M.highlights_base = function(colors)
     -- NeoTree
     NeoTreeNormal = { fg = colors.foreground, bg = colors.transparent },
     NeoTreeNormalNC = { fg = colors.foreground, bg = colors.transparent },
-    NeoTreeRootFolder = { fg = colors.color6 },
-    NeoTreeGitDirty = { fg = colors.color5 },
-    NeoTreeGitNew = { fg = colors.color4 },
+    NeoTreeTitleBar = { fg = colors.foreground, bg = colors.transparent },
+    NeoTreeRootName = { fg = colors.color6 },
+    NeoTreeGitModified = { fg = colors.color5 },
+    NeoTreeGitAdded = { fg = colors.color4 },
     NeoTreeGitDeleted = { fg = colors.color11 },
     NeoTreeSpecialFile = { fg = colors.color6 },
     NeoTreeIndentMarker = { fg = colors.foreground },

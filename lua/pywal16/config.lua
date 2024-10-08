@@ -282,8 +282,11 @@ M.highlights_base = function(colors)
 		healthWarning = { fg = colors.color5 },
 
 		-- BufferLine
-		BufferLineIndicatorSelected = { fg = colors.color5 },
-		BufferLineFill = { bg = colors.transparent },
+		BufferLineIndicatorSelected = { fg = colors.color5, bg = colors.transparent },
+		BufferLineSeparator = { fg = colors.transparent, bg = colors.transparent },
+		BufferLineSeparatorSelected = { fg = colors.transparent, bg = colors.transparent },
+		BufferLineFill = { fg = colors.transparent, bg = colors.transparent },
+		BufferLineBufferVisible = { fg = colors.transparent, bg = colors.transparent },
 
 		-- BetterWhitespace
 		ExtraWhitespace = { fg = colors.color8, bg = colors.background },

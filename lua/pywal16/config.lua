@@ -130,23 +130,23 @@ M.highlights_base = function(colors)
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude           = { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
-    TSKeyword = { fg = colors.color6 },         -- For keywords that don't fall in previous categories.
+    TSKeyword = { fg = colors.color6 },       -- For keywords that don't fall in previous categories.
     TSKeywordFunction = { fg = colors.color6 }, -- For keywords used to define a fuction.
-    TSLabel = { fg = colors.color7 },           -- For labels: `label:` in C and `:label:` in Lua.
+    TSLabel = { fg = colors.color7 },         -- For labels: `label:` in C and `:label:` in Lua.
     -- TSMethod            = { };    -- For method calls and definitions.
     -- TSNamespace         = { };    -- For identifiers referring to modules and namespaces.
     -- TSNone              = { };    -- TODO: docs
     -- TSNumber            = { };    -- For all numbers
-    TSOperator = { fg = colors.color7 },         -- For any operator: `+`, but also `->` and `*` in C.
-    TSParameter = { fg = colors.color5 },        -- For parameters of a function.
+    TSOperator = { fg = colors.color7 },       -- For any operator: `+`, but also `->` and `*` in C.
+    TSParameter = { fg = colors.color5 },      -- For parameters of a function.
     -- TSParameterReference= { };    -- For references to parameters of a function.
-    TSProperty = { fg = colors.color4 },         -- Same as `TSField`.
-    TSPunctDelimiter = { fg = colors.color7 },   -- For delimiters ie: `.`
+    TSProperty = { fg = colors.color4 },       -- Same as `TSField`.
+    TSPunctDelimiter = { fg = colors.color7 }, -- For delimiters ie: `.`
     TSPunctBracket = { fg = colors.foreground }, -- For brackets and parens.
-    TSPunctSpecial = { fg = colors.color7 },     -- For special punctutation that does not fall in the catagories before.
+    TSPunctSpecial = { fg = colors.color7 },   -- For special punctutation that does not fall in the catagories before.
     -- TSRepeat            = { };    -- For keywords related to loops.
     -- TSString            = { };    -- For strings.
-    TSStringRegex = { fg = colors.color7 },  -- For regexes.
+    TSStringRegex = { fg = colors.color7 }, -- For regexes.
     TSStringEscape = { fg = colors.color6 }, -- For escape characters within a string.
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
     -- TSType              = { };    -- For types.
@@ -199,12 +199,12 @@ M.highlights_base = function(colors)
     NeogitDiffAddHighlight = { fg = colors.color4, bg = colors.color4 },
 
     -- GitGutter
-    GitGutterAdd = { fg = colors.color4 },     -- diff mode: Added line |diff.txt|
-    GitGutterChange = { fg = colors.color5 },  -- diff mode: Changed line |diff.txt|
+    GitGutterAdd = { fg = colors.color4 },   -- diff mode: Added line |diff.txt|
+    GitGutterChange = { fg = colors.color5 }, -- diff mode: Changed line |diff.txt|
     GitGutterDelete = { fg = colors.color11 }, -- diff mode: Deleted line |diff.txt|
 
     -- GitSigns
-    GitSignsAdd = { fg = colors.color2 },    -- diff mode: Added line |diff.txt|
+    GitSignsAdd = { fg = colors.color2 },  -- diff mode: Added line |diff.txt|
     GitSignsChange = { fg = colors.color3 }, -- diff mode: Changed line |diff.txt|
     GitSignsDelete = { fg = colors.color1 }, -- diff mode: Deleted line |diff.txt|
     GitSignsCurrentLineBlame = { fg = colors.color8, bg = colors.transparent },
@@ -232,6 +232,20 @@ M.highlights_base = function(colors)
     NvimTreeSymlink = { fg = colors.color7 },
     NvimTreeFolderIcon = { fg = colors.color2, bg = colors.transparent },
     NvimTreeStatusLineNC = { bg = colors.transparent, fg = colors.transparent },
+
+    -- NeoTree
+    NeoTreeNormal = { fg = colors.foreground, bg = colors.transparent },
+    NeoTreeNormalNC = { fg = colors.foreground, bg = colors.transparent },
+    NeoTreeRootFolder = { fg = colors.color6 },
+    NeoTreeGitDirty = { fg = colors.color5 },
+    NeoTreeGitNew = { fg = colors.color4 },
+    NeoTreeGitDeleted = { fg = colors.color11 },
+    NeoTreeSpecialFile = { fg = colors.color6 },
+    NeoTreeIndentMarker = { fg = colors.foreground },
+    NeoTreeImageFile = { fg = colors.foreground },
+    NeoTreeSymlink = { fg = colors.color7 },
+    NeoTreeFolderIcon = { fg = colors.color2, bg = colors.transparent },
+    NeoTreeStatusLineNC = { bg = colors.transparent, fg = colors.transparent },
 
     -- LspSaga
     LspFloatWinNormal = { bg = colors.transparent },

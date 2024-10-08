@@ -246,10 +246,13 @@ M.highlights_base = function(colors)
 		NeoTreeImageFile = { fg = colors.foreground },
 		NeoTreeSymlink = { fg = colors.color7 },
 		NeoTreeFolderIcon = { fg = colors.color2, bg = colors.transparent },
+		NeoTreeStatusLine = { bg = colors.transparent, fg = colors.transparent },
 		NeoTreeStatusLineNC = { bg = colors.transparent, fg = colors.transparent },
 		NeoTreeStatsHeader = { fg = colors.transparent, bg = colors.transparent },
 		NeoTreeVertSplit = { fg = colors.transparent, bg = colors.transparent },
 		NeoTreeWinSeparator = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeFloatBorder = { fg = colors.transparent, bg = colors.transparent },
+		NeoTreeFloatTitle = { fg = colors.transparent, bg = colors.transparent },
 
 		-- LspSaga
 		LspFloatWinNormal = { bg = colors.transparent },

@@ -287,6 +287,7 @@ M.highlights_base = function(colors)
 		BufferLineSeparatorSelected = { fg = colors.transparent, bg = colors.transparent },
 		BufferLineFill = { fg = colors.transparent, bg = colors.transparent },
 		BufferLineBufferVisible = { fg = colors.transparent, bg = colors.transparent },
+		BufferLineTab = { fg = colors.transparent, bg = colors.transparent },
 
 		-- BetterWhitespace
 		ExtraWhitespace = { fg = colors.color8, bg = colors.background },
